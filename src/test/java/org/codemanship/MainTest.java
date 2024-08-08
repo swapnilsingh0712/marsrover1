@@ -1,13 +1,14 @@
 package org.codemanship;
 
-import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.Test;
 
-class MainTest {
+import static org.junit.Assert.assertEquals;
+
+public class MainTest {
 
     @Test
-    void starterTest() {
+    public void starterTest() {
         int number = 1;
         assertEquals(1, number);
     }
